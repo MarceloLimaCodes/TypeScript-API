@@ -1,0 +1,21 @@
+version: '2.6.1'
+
+services:
+  app:
+    build: .
+    command: npm run dev
+    ports:
+      - 3000:3000
+    volumes:
+      - .:/usr/app
+
+  db:
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: admin
+      POSTGRES_DB: crud
+    ports:
+      - 5432:5432
+    
