@@ -2,10 +2,10 @@
 API de postagem de videos. 
 
 Feito com:
-NodeJS e Express 
+  - NodeJS e Express 
 
 Banco de dados:
-PostgreSQL
+  - PostgreSQL
 
 Containers:
-Docker
+  - Docker
