@@ -2,7 +2,7 @@
 API de postagem de videos. 
 
 Feito com:
-  - NodeJS, Express TypeORM
+  - NodeJS, Express, TypeORM
 
 Banco de dados:
   - PostgreSQL
